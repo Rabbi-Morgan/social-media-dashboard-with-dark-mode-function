@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="stylesheet" href="social.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+<header>
+  <div class="container header_cont">
+    <div class="social_cont">
+      <h1 class="social_head" id="social_head">Social Media Dashboard</h1>
+      <small class="social_label" id="social_label">Total Followers: 23,004</small>
+    </div>
+    <div class="toggle_cont">
+      <h4 class="toggle_head" id="toggle_head">Dark Mode</h4>
+      <div class="toggle_main">
+        <div class="toggle" id="toggle">
+          <input type="checkbox" name="check" id="check"><label for="check"><div class="circle"></div>
+        </label>
+      </div>
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="container main_content">
+    <div class="top_card grid">
+       <div class="cards facebook grid_content flex">
+         <div class="icon_side"><img src="./images/icon-facebook.svg" alt="facebook logo"> @anuoluwapo</div>
+         <div class="followers">1987 <span>FOLLOWERS</span></div>
+         <div class="status"><img src="./images/icon-up.svg" alt="arrow up">12 Today</div>
+       </div>
+      <div class="cards twitter grid_content flex">
+        <div class="icon_side"><img src="./images/icon-twitter.svg" alt="twitter logo"> @anuoluwapo6</div>
+        <div class="followers">1044 <span>FOLLOWERS</span></div>
+        <div class="status"><img src="./images/icon-up.svg" alt="arrow up">99 Today</div>
+      </div>
+      <div class="cards instagram grid_content flex">
+        <div class="icon_side"><img src="./images/icon-instagram.svg" alt="instagram logo"> @morgan_rabbi</div>
+        <div class="followers">11k <span>FOLLOWERS</span></div>
+        <div class="status"><img src="./images/icon-up.svg" alt="arrow up">1099 Today</div>
+      </div>
+      <div class="cards youtube grid_content flex">
+        <div class="icon_side"><img src="./images/icon-youtube.svg" alt="youtube logo"> @Omobolaji A.</div>
+        <div class="followers">8239 <span>SUBSCRIBERS</span></div>
+        <div class="status"><img src="./images/icon-down.svg" alt="arrow down">144 Today</div>
+      </div>
+    </div>
+
+    <!-- second card part -->
+    <div class="btm_cont">
+      <div class="h2">Overview - Today</div>
+      <div class="bottom_part grid">
+        <div class="btm_cards flex">
+          <div class="pg_icon flex"><small>Page Views</small> <div class="icon"><img src="/images/icon-facebook.svg" alt=""></div></div>
+          <div class="no_stat flex"><div class="no">87</div><div class="status"><img src="/images/icon-up.svg" alt="">3%</div></div>
+        </div>
+        <div class="btm_cards flex">
+          <div class="pg_icon flex"><small>Likes</small>
+            <div class="icon"><img src="/images/icon-facebook.svg" alt=""></div>
+          </div>
+          <div class="no_stat flex">
+            <div class="no">52</div>
+            <div class="status red"><img src="/images/icon-down.svg" alt="">2%</div>
+          </div>
+        </div>
+        <div class="btm_cards flex">
+          <div class="pg_icon flex"><small>Likes</small>
+            <div class="icon"><img src="/images/icon-instagram.svg" alt=""></div>
+          </div>
+          <div class="no_stat flex">
+            <div class="no">5462</div>
+            <div class="status"><img src="/images/icon-up.svg" alt="">2267%</div>
+          </div>
+        </div>
+        <div class="btm_cards flex">
+          <div class="pg_icon flex"><small>Profile Views</small>
+            <div class="icon"><img src="/images/icon-instagram.svg" alt=""></div>
+          </div>
+          <div class="no_stat flex">
+            <div class="no">52k</div>
+            <div class="status"><img src="/images/icon-up.svg" alt="">1375%</div>
+          </div>
+        </div>
+        <div class="btm_cards flex">
+          <div class="pg_icon flex"><small>Retweets</small>
+            <div class="icon"><img src="/images/icon-twitter.svg" alt=""></div>
+          </div>
+          <div class="no_stat flex">
+            <div class="no">117</div>
+            <div class="status"><img src="/images/icon-up.svg" alt="">303%</div>
+          </div>
+        </div>
+        <div class="btm_cards flex">
+          <div class="pg_icon flex"><small>Likes</small>
+            <div class="icon"><img src="/images/icon-twitter.svg" alt=""></div>
+          </div>
+          <div class="no_stat flex">
+            <div class="no">507</div>
+            <div class="status"><img src="/images/icon-up.svg" alt="">553%</div>
+          </div>
+        </div>
+        <div class="btm_cards flex">
+          <div class="pg_icon flex"><small>Likes</small>
+            <div class="icon"><img src="/images/icon-youtube.svg" alt=""></div>
+          </div>
+          <div class="no_stat flex">
+            <div class="no">107</div>
+            <div class="status red"><img src="/images/icon-down.svg" alt="">19%</div>
+          </div>
+        </div>
+        <div class="btm_cards flex">
+          <div class="pg_icon flex flex"><small>Total Views</small>
+            <div class="icon"><img src="/images/icon-youtube.svg" alt=""></div>
+          </div>
+          <div class="no_stat flex flex">
+            <div class="no">1407</div>
+            <div class="status red"><img src="/images/icon-down.svg" alt="">12%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<script src="social.js"></script>
+</body>
+</html>
